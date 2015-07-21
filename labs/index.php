@@ -25,9 +25,9 @@ $labs['visir'] = array('name'=> 'VISIR',
 		         'clientGuid' => '1CFCEC4FFAC94D168C614CB22E69AC15');
 
 $labs['radiolab'] = array('name'=> 'Radiolab',
-	'couponId' => '5319',
-	'passkey' => '73BAA965FFDE47DABE25BEF61211B6E3',
-	'clientGuid' => 'D3EB17D710EB4A84A8891F4D106C54AF');
+	'couponId' => '39',
+	'passkey' => '8050B369330948108E08544F078E301B',
+	'clientGuid' => 'CEDABBE07F3F4D23A1B3FECAC870599D');
 
 
 
