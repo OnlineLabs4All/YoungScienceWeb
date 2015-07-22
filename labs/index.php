@@ -9,26 +9,28 @@ $labId = $_GET['lab_id'];
 
 $cred = array('wsdlURL' => 'http://ilabs.cti.ac.at/iLabServiceBroker/iLabServiceBroker.asmx?wsdl',
 	            'SbGuid' => '9954C5B79AEB432A94DE29E6EE44EB69',
-                'groupName' => 'Go-Lab',
+                'groupName' => 'Young_Citizen_Science_Award',
 	            'userName' => 'schulwettbewerb',
-	            'authorityKey' => 'gateway4labstestCUAS',
+	            'authorityKey' => 'YoungCitizenScienceAward',
 	            'duration' => '-1',
 	            'start' => '2014-02-01T18:13:00' );
 
 //List of Labs available
 
-
-
 $labs['visir'] = array('name'=> 'VISIR',
-		         'couponId' => '718',
-	             'passkey' => '159D9284691546C9ACE7472851D22CF6',
-		         'clientGuid' => '1CFCEC4FFAC94D168C614CB22E69AC15');
+		         'couponId' => '9774',
+	             'passkey' => 'D6A4DA5685C34382B9BC0F98A40686E8',
+		         'clientGuid' => '42CC51C112654E05A172A773BC8522FD');
 
 $labs['radiolab'] = array('name'=> 'Radiolab',
-	'couponId' => '39',
-	'passkey' => '8050B369330948108E08544F078E301B',
-	'clientGuid' => 'CEDABBE07F3F4D23A1B3FECAC870599D');
+	'couponId' => '9775',
+	'passkey' => '1AE15340ADE14C76BBB0346B70741EC9',
+	'clientGuid' => '3803EB8152FC453BB04AC83B13642DF');
 
+$labs['blackbody'] = array('name'=> 'Blackbody Radiatioin Lab',
+	'couponId' => '9778',
+	'passkey' => '5029C04106FE407DBA2F651CE26ABF77',
+	'clientGuid' => 'AEE31FF4E456425387DCA52354784772');
 
 
 
