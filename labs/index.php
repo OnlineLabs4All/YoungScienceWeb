@@ -27,11 +27,10 @@ $labs['radiolab'] = array('name'=> 'Radiolab',
 	'passkey' => '1AE15340ADE14C76BBB0346B70741EC9',
 	'clientGuid' => '3803EB8152FC453BB04AC83B13642DF');
 
-$labs['blackbody'] = array('name'=> 'Blackbody Radiatioin Lab',
+$labs['blackbody'] = array('name'=> 'Black-body Radiation Lab',
 	'couponId' => '9778',
 	'passkey' => '5029C04106FE407DBA2F651CE26ABF77',
 	'clientGuid' => 'AEE31FF4E456425387DCA52354784772');
-
 
 
 $redirectUrl = getURL($labs[$labId], $cred);
