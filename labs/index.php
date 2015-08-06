@@ -5,7 +5,7 @@ USE SoapHeader;
 
 ini_set('display_errors', 'On');
 
-$labId = mysql_real_escape_string($_GET['lab_id']);
+$labId = $_GET['lab_id'];
 
 $cred = array(
 		'wsdlURL' => 'http://ilabs.cti.ac.at/iLabServiceBroker/iLabServiceBroker.asmx?wsdl',
