@@ -32,10 +32,16 @@ $labs['radiolab'] = array(
 					'clientGuid' => '3803EB8152FC453BB04AC83B13642DF');
 
 $labs['blackbody'] = array(
-					'name'=> 'Black-body Radiation Lab',
+					'name'=> 'Blackbody Radiation Lab',
 					'couponId' => '9778',
 					'passkey' => '5029C04106FE407DBA2F651CE26ABF77',
 					'clientGuid' => 'AEE31FF4E456425387DCA52354784772');
+
+$labs['elvis'] = array(
+					'name'=> 'ELVIS Lab',
+					'couponId' => '11642',
+					'passkey' => 'F8FCB85772FE4F83A9451B9501AF51F4',
+					'clientGuid' => 'A09F2C36-C569-4CFE-9692-ABFD3B990552');
 
 
 //Check if Lab exists for safety
