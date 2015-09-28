@@ -43,6 +43,12 @@ $labs['elvis'] = array(
 					'passkey' => 'F8FCB85772FE4F83A9451B9501AF51F4',
 					'clientGuid' => 'A09F2C36-C569-4CFE-9692-ABFD3B990552');
 
+$labs['tscheby'] = array(
+					'name'=> 'Tschebyscheff-Filter Lab',
+					'couponId' => '12565',
+					'passkey' => 'A3ABF05CDFB94532BEC7FAA5304276A0',
+					'clientGuid' => '905FFFBF-5457-4980-BBBB-4E7856369008');
+
 
 //Check if Lab exists for safety
 if(!isset($labs[$labId])) {
